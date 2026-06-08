@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Repo\\gameflowtransactionengine_public_repo\\src\\GameFlow.SignalR\\GameFlow.SignalR.csproj": {}
+    "F:\\Repo\\gameflowtransactionengine_public\\src\\GameFlow.SignalR\\GameFlow.SignalR.csproj": {}
   },
   "projects": {
-    "F:\\Repo\\gameflowtransactionengine_public_repo\\src\\GameFlow.Shared\\GameFlow.Shared.csproj": {
+    "F:\\Repo\\gameflowtransactionengine_public\\src\\GameFlow.Shared\\GameFlow.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Repo\\gameflowtransactionengine_public_repo\\src\\GameFlow.Shared\\GameFlow.Shared.csproj",
+        "projectUniqueName": "F:\\Repo\\gameflowtransactionengine_public\\src\\GameFlow.Shared\\GameFlow.Shared.csproj",
         "projectName": "GameFlow.Shared",
-        "projectPath": "F:\\Repo\\gameflowtransactionengine_public_repo\\src\\GameFlow.Shared\\GameFlow.Shared.csproj",
+        "projectPath": "F:\\Repo\\gameflowtransactionengine_public\\src\\GameFlow.Shared\\GameFlow.Shared.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "F:\\Repo\\gameflowtransactionengine_public_repo\\src\\GameFlow.Shared\\obj\\",
+        "outputPath": "F:\\Repo\\gameflowtransactionengine_public\\src\\GameFlow.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
@@ -94,14 +94,14 @@
         }
       }
     },
-    "F:\\Repo\\gameflowtransactionengine_public_repo\\src\\GameFlow.SignalR\\GameFlow.SignalR.csproj": {
+    "F:\\Repo\\gameflowtransactionengine_public\\src\\GameFlow.SignalR\\GameFlow.SignalR.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Repo\\gameflowtransactionengine_public_repo\\src\\GameFlow.SignalR\\GameFlow.SignalR.csproj",
+        "projectUniqueName": "F:\\Repo\\gameflowtransactionengine_public\\src\\GameFlow.SignalR\\GameFlow.SignalR.csproj",
         "projectName": "GameFlow.SignalR",
-        "projectPath": "F:\\Repo\\gameflowtransactionengine_public_repo\\src\\GameFlow.SignalR\\GameFlow.SignalR.csproj",
+        "projectPath": "F:\\Repo\\gameflowtransactionengine_public\\src\\GameFlow.SignalR\\GameFlow.SignalR.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "F:\\Repo\\gameflowtransactionengine_public_repo\\src\\GameFlow.SignalR\\obj\\",
+        "outputPath": "F:\\Repo\\gameflowtransactionengine_public\\src\\GameFlow.SignalR\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
@@ -124,8 +124,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\Repo\\gameflowtransactionengine_public_repo\\src\\GameFlow.Shared\\GameFlow.Shared.csproj": {
-                "projectPath": "F:\\Repo\\gameflowtransactionengine_public_repo\\src\\GameFlow.Shared\\GameFlow.Shared.csproj"
+              "F:\\Repo\\gameflowtransactionengine_public\\src\\GameFlow.Shared\\GameFlow.Shared.csproj": {
+                "projectPath": "F:\\Repo\\gameflowtransactionengine_public\\src\\GameFlow.Shared\\GameFlow.Shared.csproj"
               }
             }
           }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Repo\\gameflowtransactionengine_public_repo\\tests\\GameFlow.Api.Tests\\GameFlow.Api.Tests.csproj": {}
+    "F:\\Repo\\gameflowtransactionengine_public\\tests\\GameFlow.Api.Tests\\GameFlow.Api.Tests.csproj": {}
   },
   "projects": {
-    "F:\\Repo\\gameflowtransactionengine_public_repo\\src\\GameFlow.Api\\GameFlow.Api.csproj": {
+    "F:\\Repo\\gameflowtransactionengine_public\\src\\GameFlow.Api\\GameFlow.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Repo\\gameflowtransactionengine_public_repo\\src\\GameFlow.Api\\GameFlow.Api.csproj",
+        "projectUniqueName": "F:\\Repo\\gameflowtransactionengine_public\\src\\GameFlow.Api\\GameFlow.Api.csproj",
         "projectName": "GameFlow.Api",
-        "projectPath": "F:\\Repo\\gameflowtransactionengine_public_repo\\src\\GameFlow.Api\\GameFlow.Api.csproj",
+        "projectPath": "F:\\Repo\\gameflowtransactionengine_public\\src\\GameFlow.Api\\GameFlow.Api.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "F:\\Repo\\gameflowtransactionengine_public_repo\\src\\GameFlow.Api\\obj\\",
+        "outputPath": "F:\\Repo\\gameflowtransactionengine_public\\src\\GameFlow.Api\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
@@ -34,8 +34,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\Repo\\gameflowtransactionengine_public_repo\\src\\GameFlow.Shared\\GameFlow.Shared.csproj": {
-                "projectPath": "F:\\Repo\\gameflowtransactionengine_public_repo\\src\\GameFlow.Shared\\GameFlow.Shared.csproj"
+              "F:\\Repo\\gameflowtransactionengine_public\\src\\GameFlow.Shared\\GameFlow.Shared.csproj": {
+                "projectPath": "F:\\Repo\\gameflowtransactionengine_public\\src\\GameFlow.Shared\\GameFlow.Shared.csproj"
               }
             }
           }
@@ -148,14 +148,14 @@
         }
       }
     },
-    "F:\\Repo\\gameflowtransactionengine_public_repo\\src\\GameFlow.Shared\\GameFlow.Shared.csproj": {
+    "F:\\Repo\\gameflowtransactionengine_public\\src\\GameFlow.Shared\\GameFlow.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Repo\\gameflowtransactionengine_public_repo\\src\\GameFlow.Shared\\GameFlow.Shared.csproj",
+        "projectUniqueName": "F:\\Repo\\gameflowtransactionengine_public\\src\\GameFlow.Shared\\GameFlow.Shared.csproj",
         "projectName": "GameFlow.Shared",
-        "projectPath": "F:\\Repo\\gameflowtransactionengine_public_repo\\src\\GameFlow.Shared\\GameFlow.Shared.csproj",
+        "projectPath": "F:\\Repo\\gameflowtransactionengine_public\\src\\GameFlow.Shared\\GameFlow.Shared.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "F:\\Repo\\gameflowtransactionengine_public_repo\\src\\GameFlow.Shared\\obj\\",
+        "outputPath": "F:\\Repo\\gameflowtransactionengine_public\\src\\GameFlow.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
@@ -238,14 +238,14 @@
         }
       }
     },
-    "F:\\Repo\\gameflowtransactionengine_public_repo\\tests\\GameFlow.Api.Tests\\GameFlow.Api.Tests.csproj": {
+    "F:\\Repo\\gameflowtransactionengine_public\\tests\\GameFlow.Api.Tests\\GameFlow.Api.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Repo\\gameflowtransactionengine_public_repo\\tests\\GameFlow.Api.Tests\\GameFlow.Api.Tests.csproj",
+        "projectUniqueName": "F:\\Repo\\gameflowtransactionengine_public\\tests\\GameFlow.Api.Tests\\GameFlow.Api.Tests.csproj",
         "projectName": "GameFlow.Api.Tests",
-        "projectPath": "F:\\Repo\\gameflowtransactionengine_public_repo\\tests\\GameFlow.Api.Tests\\GameFlow.Api.Tests.csproj",
+        "projectPath": "F:\\Repo\\gameflowtransactionengine_public\\tests\\GameFlow.Api.Tests\\GameFlow.Api.Tests.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "F:\\Repo\\gameflowtransactionengine_public_repo\\tests\\GameFlow.Api.Tests\\obj\\",
+        "outputPath": "F:\\Repo\\gameflowtransactionengine_public\\tests\\GameFlow.Api.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
@@ -268,11 +268,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\Repo\\gameflowtransactionengine_public_repo\\src\\GameFlow.Api\\GameFlow.Api.csproj": {
-                "projectPath": "F:\\Repo\\gameflowtransactionengine_public_repo\\src\\GameFlow.Api\\GameFlow.Api.csproj"
+              "F:\\Repo\\gameflowtransactionengine_public\\src\\GameFlow.Api\\GameFlow.Api.csproj": {
+                "projectPath": "F:\\Repo\\gameflowtransactionengine_public\\src\\GameFlow.Api\\GameFlow.Api.csproj"
               },
-              "F:\\Repo\\gameflowtransactionengine_public_repo\\src\\GameFlow.Shared\\GameFlow.Shared.csproj": {
-                "projectPath": "F:\\Repo\\gameflowtransactionengine_public_repo\\src\\GameFlow.Shared\\GameFlow.Shared.csproj"
+              "F:\\Repo\\gameflowtransactionengine_public\\src\\GameFlow.Shared\\GameFlow.Shared.csproj": {
+                "projectPath": "F:\\Repo\\gameflowtransactionengine_public\\src\\GameFlow.Shared\\GameFlow.Shared.csproj"
               }
             }
           }
