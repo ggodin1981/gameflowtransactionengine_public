@@ -1,0 +1,66 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gameflow-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: gameflow-api
+  template:
+    metadata:
+      labels:
+        app: gameflow-api
+    spec:
+      containers:
+        - name: api
+          image: gameflow/api:latest
+          ports:
+            - containerPort: 8080
+          envFrom:
+            - configMapRef:
+                name: gameflow-config
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gameflow-worker
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: gameflow-worker
+  template:
+    metadata:
+      labels:
+        app: gameflow-worker
+    spec:
+      containers:
+        - name: worker
+          image: gameflow/worker:latest
+          envFrom:
+            - configMapRef:
+                name: gameflow-config
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: gameflow-signalr
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: gameflow-signalr
+  template:
+    metadata:
+      labels:
+        app: gameflow-signalr
+    spec:
+      containers:
+        - name: signalr
+          image: gameflow/signalr:latest
+          ports:
+            - containerPort: 8080
+          envFrom:
+            - configMapRef:
+                name: gameflow-config

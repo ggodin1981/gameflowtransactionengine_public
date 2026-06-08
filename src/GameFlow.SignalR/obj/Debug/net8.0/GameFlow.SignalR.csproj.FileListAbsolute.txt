@@ -1,0 +1,86 @@
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\bin\Debug\net8.0\appsettings.json
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\bin\Debug\net8.0\GameFlow.SignalR.staticwebassets.endpoints.json
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\bin\Debug\net8.0\GameFlow.SignalR.exe
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\bin\Debug\net8.0\GameFlow.SignalR.deps.json
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\bin\Debug\net8.0\GameFlow.SignalR.runtimeconfig.json
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\bin\Debug\net8.0\GameFlow.SignalR.dll
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\bin\Debug\net8.0\GameFlow.SignalR.pdb
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\bin\Debug\net8.0\Serilog.dll
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\bin\Debug\net8.0\GameFlow.Shared.dll
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\bin\Debug\net8.0\GameFlow.Shared.pdb
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\obj\Debug\net8.0\GameFlow.SignalR.csproj.AssemblyReference.cache
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\obj\Debug\net8.0\GameFlow.SignalR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\obj\Debug\net8.0\GameFlow.SignalR.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\obj\Debug\net8.0\GameFlow.SignalR.AssemblyInfo.cs
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\obj\Debug\net8.0\GameFlow.SignalR.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\obj\Debug\net8.0\GameFlow.SignalR.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\obj\Debug\net8.0\scopedcss\bundle\GameFlow.SignalR.styles.css
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\obj\Debug\net8.0\swae.build.ex.cache
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\obj\Debug\net8.0\GameFlow.F9C4CFDC.Up2Date
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\obj\Debug\net8.0\GameFlow.SignalR.dll
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\obj\Debug\net8.0\refint\GameFlow.SignalR.dll
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\obj\Debug\net8.0\GameFlow.SignalR.pdb
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\obj\Debug\net8.0\GameFlow.SignalR.genruntimeconfig.cache
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.SignalR\obj\Debug\net8.0\ref\GameFlow.SignalR.dll
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\bin\Debug\net8.0\GameFlow.SignalR.staticwebassets.endpoints.json
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\bin\Debug\net8.0\appsettings.json
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\bin\Debug\net8.0\GameFlow.SignalR.exe
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\bin\Debug\net8.0\GameFlow.SignalR.deps.json
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\bin\Debug\net8.0\GameFlow.SignalR.runtimeconfig.json
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\bin\Debug\net8.0\GameFlow.SignalR.dll
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\bin\Debug\net8.0\GameFlow.SignalR.pdb
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\bin\Debug\net8.0\Serilog.dll
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\bin\Debug\net8.0\Serilog.AspNetCore.dll
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\bin\Debug\net8.0\Serilog.Sinks.File.dll
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\bin\Debug\net8.0\GameFlow.Shared.dll
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\bin\Debug\net8.0\GameFlow.Shared.pdb
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\obj\Debug\net8.0\GameFlow.SignalR.csproj.AssemblyReference.cache
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\obj\Debug\net8.0\rpswa.dswa.cache.json
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\obj\Debug\net8.0\GameFlow.SignalR.GeneratedMSBuildEditorConfig.editorconfig
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\obj\Debug\net8.0\GameFlow.SignalR.AssemblyInfoInputs.cache
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\obj\Debug\net8.0\GameFlow.SignalR.AssemblyInfo.cs
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\obj\Debug\net8.0\GameFlow.SignalR.csproj.CoreCompileInputs.cache
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\obj\Debug\net8.0\GameFlow.SignalR.MvcApplicationPartsAssemblyInfo.cache
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\obj\Debug\net8.0\rjimswa.dswa.cache.json
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\obj\Debug\net8.0\scopedcss\bundle\GameFlow.SignalR.styles.css
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\obj\Debug\net8.0\staticwebassets.build.json
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\obj\Debug\net8.0\staticwebassets.build.json.cache
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\obj\Debug\net8.0\staticwebassets.development.json
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\obj\Debug\net8.0\swae.build.ex.cache
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\obj\Debug\net8.0\GameFlow.F9C4CFDC.Up2Date
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\obj\Debug\net8.0\GameFlow.SignalR.dll
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\obj\Debug\net8.0\refint\GameFlow.SignalR.dll
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\obj\Debug\net8.0\GameFlow.SignalR.pdb
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\obj\Debug\net8.0\GameFlow.SignalR.genruntimeconfig.cache
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.SignalR\obj\Debug\net8.0\ref\GameFlow.SignalR.dll

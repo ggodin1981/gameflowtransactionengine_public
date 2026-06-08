@@ -1,0 +1,12 @@
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\tests\GameFlow.Api.Tests\bin\Debug\net8.0\.msCoverageSourceRootsMapping_GameFlow.Api.Tests
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\tests\GameFlow.Api.Tests\obj\Debug\net8.0\GameFlow.Api.Tests.csproj.AssemblyReference.cache
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\tests\GameFlow.Api.Tests\obj\Debug\net8.0\GameFlow.Api.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\tests\GameFlow.Api.Tests\obj\Debug\net8.0\GameFlow.Api.Tests.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\tests\GameFlow.Api.Tests\obj\Debug\net8.0\GameFlow.Api.Tests.AssemblyInfo.cs
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\tests\GameFlow.Api.Tests\obj\Debug\net8.0\GameFlow.Api.Tests.csproj.CoreCompileInputs.cache
+F:\Repo\gameflowtransactionengine_public_repo\tests\GameFlow.Api.Tests\bin\Debug\net8.0\.msCoverageSourceRootsMapping_GameFlow.Api.Tests
+F:\Repo\gameflowtransactionengine_public_repo\tests\GameFlow.Api.Tests\obj\Debug\net8.0\GameFlow.Api.Tests.csproj.AssemblyReference.cache
+F:\Repo\gameflowtransactionengine_public_repo\tests\GameFlow.Api.Tests\obj\Debug\net8.0\GameFlow.Api.Tests.GeneratedMSBuildEditorConfig.editorconfig
+F:\Repo\gameflowtransactionengine_public_repo\tests\GameFlow.Api.Tests\obj\Debug\net8.0\GameFlow.Api.Tests.AssemblyInfoInputs.cache
+F:\Repo\gameflowtransactionengine_public_repo\tests\GameFlow.Api.Tests\obj\Debug\net8.0\GameFlow.Api.Tests.AssemblyInfo.cs
+F:\Repo\gameflowtransactionengine_public_repo\tests\GameFlow.Api.Tests\obj\Debug\net8.0\GameFlow.Api.Tests.csproj.CoreCompileInputs.cache

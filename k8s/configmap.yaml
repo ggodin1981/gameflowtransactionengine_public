@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: gameflow-config
+data:
+  ASPNETCORE_ENVIRONMENT: "Production"
+  Postgres__ConnectionString: ""
+  Redis__ConnectionString: "redis:6379"
+  RabbitMq__Host: "rabbitmq"
+  SignalRService__BaseUrl: "http://gameflow-signalr"
+  ElasticSearch__BaseUrl: "http://elasticsearch:9200/"
+  InternalAuth__ApiKey: "local-dev-key"

@@ -1,0 +1,24 @@
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.Shared\bin\Debug\net8.0\GameFlow.Shared.deps.json
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.Shared\bin\Debug\net8.0\GameFlow.Shared.dll
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.Shared\bin\Debug\net8.0\GameFlow.Shared.pdb
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.Shared\obj\Debug\net8.0\GameFlow.Shared.csproj.AssemblyReference.cache
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.Shared\obj\Debug\net8.0\GameFlow.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.Shared\obj\Debug\net8.0\GameFlow.Shared.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.Shared\obj\Debug\net8.0\GameFlow.Shared.AssemblyInfo.cs
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.Shared\obj\Debug\net8.0\GameFlow.Shared.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.Shared\obj\Debug\net8.0\GameFlow.Shared.dll
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.Shared\obj\Debug\net8.0\refint\GameFlow.Shared.dll
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.Shared\obj\Debug\net8.0\GameFlow.Shared.pdb
+C:\Users\user\OneDrive\Documents\GameFlow Transaction Engine\src\GameFlow.Shared\obj\Debug\net8.0\ref\GameFlow.Shared.dll
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\bin\Debug\net8.0\GameFlow.Shared.deps.json
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\bin\Debug\net8.0\GameFlow.Shared.dll
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\bin\Debug\net8.0\GameFlow.Shared.pdb
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\obj\Debug\net8.0\GameFlow.Shared.csproj.AssemblyReference.cache
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\obj\Debug\net8.0\GameFlow.Shared.GeneratedMSBuildEditorConfig.editorconfig
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\obj\Debug\net8.0\GameFlow.Shared.AssemblyInfoInputs.cache
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\obj\Debug\net8.0\GameFlow.Shared.AssemblyInfo.cs
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\obj\Debug\net8.0\GameFlow.Shared.csproj.CoreCompileInputs.cache
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\obj\Debug\net8.0\GameFlow.Shared.dll
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\obj\Debug\net8.0\refint\GameFlow.Shared.dll
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\obj\Debug\net8.0\GameFlow.Shared.pdb
+F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\obj\Debug\net8.0\ref\GameFlow.Shared.dll

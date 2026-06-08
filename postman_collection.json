@@ -1,0 +1,236 @@
+{
+  "info": {
+    "name": "GameFlow Transaction Engine",
+    "_postman_id": "7c9d5d89-5f2f-4b3d-9d3a-1d7f9a1b2c44",
+    "description": "Postman collection for testing GameFlow Transaction Engine APIs. Defaults to the live Render API via the baseUrl collection variable.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://gameflow-api-demo.onrender.com"
+    },
+    {
+      "key": "externalTransactionId",
+      "value": ""
+    }
+  ],
+  "item": [
+    {
+      "name": "Health Ready",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/health/ready",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "health",
+            "ready"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Transaction - Success",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('Status is 202', function () {",
+              "    pm.response.to.have.status(202);",
+              "});",
+              "",
+              "var json = pm.response.json();",
+              "if (json.externalTransactionId) {",
+              "    pm.collectionVariables.set('externalTransactionId', json.externalTransactionId);",
+              "}"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"playerExternalId\": \"postman-player-001\",\n  \"playerUsername\": \"postman_user\",\n  \"country\": \"PH\",\n  \"currency\": \"EUR\",\n  \"gameExternalId\": \"game-live-001\",\n  \"gameName\": \"Live Roulette\",\n  \"provider\": \"Evolution\",\n  \"amount\": 250.75,\n  \"type\": 0\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/transactions",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "transactions"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Transaction - Fail Threshold",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test('Status is 202', function () {",
+              "    pm.response.to.have.status(202);",
+              "});",
+              "",
+              "var json = pm.response.json();",
+              "if (json.externalTransactionId) {",
+              "    pm.collectionVariables.set('externalTransactionId', json.externalTransactionId);",
+              "}"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"playerExternalId\": \"postman-player-002\",\n  \"playerUsername\": \"risk_user\",\n  \"country\": \"PH\",\n  \"currency\": \"EUR\",\n  \"gameExternalId\": \"game-live-002\",\n  \"gameName\": \"VIP Roulette\",\n  \"provider\": \"Evolution\",\n  \"amount\": 8000,\n  \"type\": 0\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/api/transactions",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "transactions"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Get Transaction By External ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/transactions/{{externalTransactionId}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "transactions",
+            "{{externalTransactionId}}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "List Transactions",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/transactions",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "transactions"
+          ]
+        }
+      }
+    },
+    {
+      "name": "List Failed Transactions",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/transactions?status=Failed",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "transactions"
+          ],
+          "query": [
+            {
+              "key": "status",
+              "value": "Failed"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Dashboard Overview",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/dashboard/overview",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "dashboard",
+            "overview"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Audit Logs",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/audit-logs",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "audit-logs"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Player Profile",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/api/players/postman-player-001",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "api",
+            "players",
+            "postman-player-001"
+          ]
+        }
+      }
+    }
+  ]
+}

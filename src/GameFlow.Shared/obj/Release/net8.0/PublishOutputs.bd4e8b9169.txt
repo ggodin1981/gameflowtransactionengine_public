@@ -1,0 +1,13 @@
+f:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\bin\Release\net8.0\publish\GameFlow.Shared.dll
+f:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\bin\Release\net8.0\publish\GameFlow.Shared.deps.json
+f:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\bin\Release\net8.0\publish\GameFlow.Shared.pdb
+f:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\bin\Release\net8.0\publish\Microsoft.EntityFrameworkCore.dll
+f:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\bin\Release\net8.0\publish\Microsoft.EntityFrameworkCore.Abstractions.dll
+f:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\bin\Release\net8.0\publish\Microsoft.Extensions.Caching.Abstractions.dll
+f:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\bin\Release\net8.0\publish\Microsoft.Extensions.Caching.Memory.dll
+f:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\bin\Release\net8.0\publish\Microsoft.Extensions.DependencyInjection.dll
+f:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\bin\Release\net8.0\publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+f:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\bin\Release\net8.0\publish\Microsoft.Extensions.Logging.dll
+f:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\bin\Release\net8.0\publish\Microsoft.Extensions.Logging.Abstractions.dll
+f:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\bin\Release\net8.0\publish\Microsoft.Extensions.Options.dll
+f:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\bin\Release\net8.0\publish\Microsoft.Extensions.Primitives.dll

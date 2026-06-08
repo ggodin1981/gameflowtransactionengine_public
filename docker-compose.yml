@@ -1,0 +1,131 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: gameflow-postgres
+    environment:
+      POSTGRES_DB: gameflow
+      POSTGRES_USER: gameflow
+      POSTGRES_PASSWORD: gameflow
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7
+    container_name: gameflow-redis
+    ports:
+      - "6379:6379"
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: gameflow-rabbitmq
+    ports:
+      - "5672:5672"
+      - "18072:15672"
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.14.3
+    container_name: gameflow-elasticsearch
+    environment:
+      discovery.type: single-node
+      xpack.security.enabled: "false"
+      ES_JAVA_OPTS: "-Xms512m -Xmx512m"
+    ports:
+      - "9200:9200"
+    volumes:
+      - elasticsearch-data:/usr/share/elasticsearch/data
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.14.3
+    container_name: gameflow-kibana
+    depends_on:
+      - elasticsearch
+    environment:
+      ELASTICSEARCH_HOSTS: http://elasticsearch:9200
+    ports:
+      - "5601:5601"
+
+  prometheus:
+    image: prom/prometheus:v2.54.1
+    container_name: gameflow-prometheus
+    depends_on:
+      - api
+      - worker
+      - signalr
+    volumes:
+      - ./infra/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    ports:
+      - "9090:9090"
+
+  grafana:
+    image: grafana/grafana:11.1.4
+    container_name: gameflow-grafana
+    depends_on:
+      - prometheus
+    ports:
+      - "3001:3000"
+
+  api:
+    build:
+      context: .
+      dockerfile: infra/docker/GameFlow.Api.Dockerfile
+    container_name: gameflow-api
+    depends_on:
+      - postgres
+      - redis
+      - rabbitmq
+    environment:
+      ASPNETCORE_URLS: http://+:8080
+      Postgres__ConnectionString: Host=postgres;Port=5432;Database=gameflow;Username=gameflow;Password=gameflow
+      Redis__ConnectionString: redis:6379
+      RabbitMq__Host: rabbitmq
+    ports:
+      - "5051:8080"
+
+  worker:
+    build:
+      context: .
+      dockerfile: infra/docker/GameFlow.Worker.Dockerfile
+    container_name: gameflow-worker
+    depends_on:
+      - postgres
+      - rabbitmq
+      - signalr
+      - elasticsearch
+    environment:
+      Postgres__ConnectionString: Host=postgres;Port=5432;Database=gameflow;Username=gameflow;Password=gameflow
+      RabbitMq__Host: rabbitmq
+      SignalRService__BaseUrl: http://signalr:8080/
+      ElasticSearch__BaseUrl: http://elasticsearch:9200/
+
+  signalr:
+    build:
+      context: .
+      dockerfile: infra/docker/GameFlow.SignalR.Dockerfile
+    container_name: gameflow-signalr
+    environment:
+      ASPNETCORE_URLS: http://+:8080
+      InternalAuth__ApiKey: local-dev-key
+    ports:
+      - "5053:8080"
+
+  frontend:
+    build:
+      context: .
+      dockerfile: infra/docker/frontend.Dockerfile
+    container_name: gameflow-frontend
+    depends_on:
+      - api
+      - signalr
+    environment:
+      VITE_API_BASE_URL: http://localhost:5051
+      VITE_SIGNALR_URL: http://localhost:5053
+    ports:
+      - "5173:80"
+
+volumes:
+  postgres-data:
+  elasticsearch-data:
