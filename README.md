@@ -13,6 +13,9 @@ GameFlow Transaction Engine is a distributed transaction-processing portfolio pr
 - xUnit validation coverage as the starting point for deeper service-level tests
 - Docker, Kubernetes manifests, and GitHub Actions to tell a complete platform story
 
+  ## Demo Live
+  https://gameflowtransactionengine.netlify.app
+
 ## Architecture
 
 ```mermaid
@@ -114,6 +117,11 @@ The public repo does not ship any committed PostgreSQL connection string. For lo
 - The dashboard is transaction-centric rather than CRUD-centric, which mirrors operator tooling more closely.
 - RabbitMQ, Redis, PostgreSQL, SignalR, and Elasticsearch are used to signal distributed-system thinking.
 - The codebase is structured so you can grow it into outbox processing, retries, dead-letter handling, auth, and test projects next.
+
+## UI Preview 
+![img1](images/image1.png)
+![img2](images/image2.png)
+![img3](images/image3.png)
 
 ## Current limitations
 
