@@ -147,6 +147,7 @@ builder.Services.AddScoped<ITransactionCommandService, TransactionCommandService
 builder.Services.AddScoped<ITransactionQueryService, TransactionQueryService>();
 builder.Services.AddScoped<IDashboardQueryService, DashboardQueryService>();
 builder.Services.AddScoped<IPlayerProfileService, PlayerProfileService>();
+builder.Services.AddHostedService<DatabaseInitializationHostedService>();
 
 var demoMode = builder.Configuration.GetSection(DemoModeOptions.SectionName).Get<DemoModeOptions>() ?? new DemoModeOptions();
 if (demoMode.Enabled)
@@ -171,27 +172,6 @@ else
 }
 
 var app = builder.Build();
-
-using (var scope = app.Services.CreateScope())
-{
-    var dbContext = scope.ServiceProvider.GetRequiredService<GameFlowDbContext>();
-    var logger = scope.ServiceProvider.GetRequiredService<ILoggerFactory>().CreateLogger("DatabaseInitialization");
-    const int maxAttempts = 10;
-
-    for (var attempt = 1; attempt <= maxAttempts; attempt++)
-    {
-        try
-        {
-            await DatabaseBootstrapper.InitializeAsync(dbContext, logger);
-            break;
-        }
-        catch (Exception exception) when (attempt < maxAttempts)
-        {
-            logger.LogWarning(exception, "Database initialization attempt {Attempt} of {MaxAttempts} failed. Retrying in 3 seconds.", attempt, maxAttempts);
-            await Task.Delay(TimeSpan.FromSeconds(3));
-        }
-    }
-}
 
 app.UseSerilogRequestLogging();
 app.UseSwagger();

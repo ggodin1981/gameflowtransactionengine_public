@@ -1,4 +1,4 @@
-import { useEffect, useEffectEvent, useState, startTransition, useDeferredValue } from "react";
+import { useEffect, useRef, useState, startTransition, useDeferredValue } from "react";
 import { useQuery } from "@tanstack/react-query";
 import {
   Activity,
@@ -103,18 +103,19 @@ export default function App() {
     queryFn: fetchAuditLogs,
   });
 
-  const handleTransactionUpdate = useEffectEvent((event: TransactionLifecycleEvent) => {
+  const handleTransactionUpdateRef = useRef<(event: TransactionLifecycleEvent) => void>(() => undefined);
+  handleTransactionUpdateRef.current = (event: TransactionLifecycleEvent) => {
     pushEvent(event);
     queryClient.invalidateQueries({ queryKey: ["overview"] });
     queryClient.invalidateQueries({ queryKey: ["transactions"] });
     queryClient.invalidateQueries({ queryKey: ["audit-logs"] });
-  });
+  };
 
   useEffect(() => {
     let active = true;
     let connectionPromise: Promise<{ stop: () => Promise<void> } | null>;
 
-    connectionPromise = connectTransactionHub(handleTransactionUpdate)
+    connectionPromise = connectTransactionHub((event) => handleTransactionUpdateRef.current(event))
       .then((connection) => {
         if (!active) {
           void connection.stop();

@@ -16,7 +16,8 @@ GameFlow Transaction Engine is a distributed transaction-processing portfolio pr
   ## Demo Live
   https://gameflowtransactionengine.netlify.app
   ## API Test
-  https://github.com/ggodin1981/gameflowtransactionengine_public/blob/main/postman_collection.json
+  Local: `postman_collection-local-api.json`
+  Live: `postman_collection-live-api.json`
 
 ## Architecture
 
@@ -54,6 +55,7 @@ k8s/                      Kubernetes manifests
 ## Implemented backend flow
 
 1. `POST /api/transactions` accepts a transaction command.
+   The request must include a unique `externalTransactionId` supplied by the caller for idempotency and duplicate protection.
 2. The API upserts the player/game, persists a pending transaction, and records an audit entry.
 3. The API publishes a `TransactionCommandMessage` to RabbitMQ.
 4. The worker consumes the command, moves the transaction through processing, and settles or fails it.

@@ -1,0 +1,31 @@
+services:
+  - type: web
+    name: gameflow-api-demo
+    runtime: docker
+    dockerfilePath: ./infra/docker/GameFlow.Api.Dockerfile
+    envVars:
+      - key: ASPNETCORE_URLS
+        value: http://+:8080
+      - key: DemoMode__Enabled
+        value: "true"
+      - key: Redis__ConnectionString
+        value: ""
+      - key: SignalRService__BaseUrl
+        fromService:
+          name: gameflow-signalr-demo
+          type: web
+          property: hostport
+      - key: SignalRService__ApiKey
+        value: local-dev-key
+      - key: Postgres__ConnectionString
+        sync: false
+
+  - type: web
+    name: gameflow-signalr-demo
+    runtime: docker
+    dockerfilePath: ./infra/docker/GameFlow.SignalR.Dockerfile
+    envVars:
+      - key: ASPNETCORE_URLS
+        value: http://+:8080
+      - key: InternalAuth__ApiKey
+        value: local-dev-key

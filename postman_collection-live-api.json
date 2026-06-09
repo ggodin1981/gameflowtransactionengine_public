@@ -2,7 +2,7 @@
   "info": {
     "name": "GameFlow Transaction Engine",
     "_postman_id": "7c9d5d89-5f2f-4b3d-9d3a-1d7f9a1b2c44",
-    "description": "Postman collection for testing GameFlow Transaction Engine APIs. Defaults to the live Render API via the baseUrl collection variable.",
+    "description": "Postman collection for testing the live GameFlow Transaction Engine API. Transaction creation now requires a caller-supplied externalTransactionId for idempotency.",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "variable": [
@@ -63,7 +63,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n  \"playerExternalId\": \"postman-player-001\",\n  \"playerUsername\": \"postman_user\",\n  \"country\": \"PH\",\n  \"currency\": \"EUR\",\n  \"gameExternalId\": \"game-live-001\",\n  \"gameName\": \"Live Roulette\",\n  \"provider\": \"Evolution\",\n  \"amount\": 250.75,\n  \"type\": 0\n}"
+          "raw": "{\n  \"externalTransactionId\": \"postman-live-success-{{$timestamp}}\",\n  \"playerExternalId\": \"postman-player-001\",\n  \"playerUsername\": \"postman_user\",\n  \"country\": \"PH\",\n  \"currency\": \"EUR\",\n  \"gameExternalId\": \"game-live-001\",\n  \"gameName\": \"Live Roulette\",\n  \"provider\": \"Evolution\",\n  \"amount\": 250.75,\n  \"type\": 0\n}"
         },
         "url": {
           "raw": "{{baseUrl}}/api/transactions",
@@ -107,7 +107,7 @@
         ],
         "body": {
           "mode": "raw",
-          "raw": "{\n  \"playerExternalId\": \"postman-player-002\",\n  \"playerUsername\": \"risk_user\",\n  \"country\": \"PH\",\n  \"currency\": \"EUR\",\n  \"gameExternalId\": \"game-live-002\",\n  \"gameName\": \"VIP Roulette\",\n  \"provider\": \"Evolution\",\n  \"amount\": 8000,\n  \"type\": 0\n}"
+          "raw": "{\n  \"externalTransactionId\": \"postman-live-risk-{{$timestamp}}\",\n  \"playerExternalId\": \"postman-player-002\",\n  \"playerUsername\": \"risk_user\",\n  \"country\": \"PH\",\n  \"currency\": \"EUR\",\n  \"gameExternalId\": \"game-live-002\",\n  \"gameName\": \"VIP Roulette\",\n  \"provider\": \"Evolution\",\n  \"amount\": 8000,\n  \"type\": 0\n}"
         },
         "url": {
           "raw": "{{baseUrl}}/api/transactions",
