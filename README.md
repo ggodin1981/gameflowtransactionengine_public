@@ -13,11 +13,40 @@ GameFlow Transaction Engine is a distributed transaction-processing portfolio pr
 - xUnit validation coverage as the starting point for deeper service-level tests
 - Docker, Kubernetes manifests, and GitHub Actions to tell a complete platform story
 
-  ## Demo Live
-  https://gameflowtransactionengine.netlify.app
-  ## API Test
-  Local: `postman_collection-local-api.json`
-  Live: `postman_collection-live-api.json`
+## Tech stack
+
+| Layer | Technology | How it is used in this project |
+| --- | --- | --- |
+| Backend runtime | .NET 8 / ASP.NET Core | Powers the API, SignalR gateway, background worker, and shared application contracts |
+| API layer | ASP.NET Core Web API | Exposes transaction ingestion, dashboard, player, and audit endpoints |
+| Validation | FluentValidation | Validates incoming transaction requests before they enter the processing flow |
+| Real-time messaging | ASP.NET Core SignalR | Broadcasts live transaction lifecycle updates to the dashboard |
+| Background processing | .NET Worker Service | Consumes queued transaction commands and handles async settlement |
+| ORM / data access | Entity Framework Core 8 | Manages persistence and query access through the shared `GameFlowDbContext` |
+| Primary database | PostgreSQL | Stores players, games, transactions, transaction events, failures, and audit logs |
+| Messaging broker | RabbitMQ | Decouples synchronous API writes from asynchronous worker processing |
+| Cache | Redis | Supports player lookup caching in the API layer |
+| Search | Elasticsearch | Indexes final transaction documents for operator-facing search workflows |
+| Logging | Serilog | Provides structured application logging across backend services |
+| API documentation | Swagger / Swashbuckle | Generates interactive API documentation for local and deployed environments |
+| Frontend | React 19 + TypeScript | Builds the operator dashboard UI |
+| Frontend build tool | Vite | Handles local development and frontend production builds |
+| Frontend state / data | TanStack Query + Zustand | Manages server state, live-feed state, and dashboard client interactions |
+| Frontend styling | Tailwind CSS | Drives utility-first styling for the dashboard UI |
+| Frontend real-time client | `@microsoft/signalr` | Connects the React dashboard to the SignalR service |
+| Testing | xUnit | Covers API validation and service-level backend behavior |
+| Containers | Docker / Docker Compose | Runs the full local multi-service stack |
+| Deployment / orchestration | Kubernetes, Render, Netlify | Supports container orchestration plus separate frontend/backend hosting targets |
+| Observability | Prometheus, Grafana, Kibana | Provides metrics, dashboards, and log/search visibility around transaction processing |
+
+## Demo Live
+
+https://gameflowtransactionengine.netlify.app
+
+## API Test
+
+Local: `postman_collection-local-api.json`  
+Live: `postman_collection-live-api.json`
 
 ## Architecture
 
@@ -129,6 +158,5 @@ The public repo does not ship any committed PostgreSQL connection string. For lo
 
 ## Current limitations
 
-- This workspace currently blocks normal tool-driven file generation at runtime, so the repository was scaffolded directly via editor patches.
 - The code is organized for real implementation, but local restore and build still depend on the environment being able to create `obj/` and `bin/` artifacts normally.
 - Prometheus/Grafana and Elasticsearch are wired at the deployment/config level; production-grade metrics, index templates, and dashboards would be the next iteration.
