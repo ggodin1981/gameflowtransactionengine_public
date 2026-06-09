@@ -12,6 +12,7 @@ public sealed class CreateTransactionRequestValidatorTests
         var validator = new CreateTransactionRequestValidator();
         var request = new CreateTransactionRequest
         {
+            ExternalTransactionId = "TXN-1",
             PlayerExternalId = "PLY-1",
             PlayerUsername = "tester",
             Country = "PH",
@@ -27,5 +28,28 @@ public sealed class CreateTransactionRequestValidatorTests
 
         Assert.False(result.IsValid);
         Assert.Contains(result.Errors, error => error.PropertyName == nameof(CreateTransactionRequest.Amount));
+    }
+
+    [Fact]
+    public void Rejects_missing_external_transaction_id()
+    {
+        var validator = new CreateTransactionRequestValidator();
+        var request = new CreateTransactionRequest
+        {
+            PlayerExternalId = "PLY-1",
+            PlayerUsername = "tester",
+            Country = "PH",
+            Currency = "EUR",
+            GameExternalId = "GM-1",
+            GameName = "Book of Nile",
+            Provider = "EveryMatrix Studio",
+            Amount = 10m,
+            Type = TransactionType.Debit
+        };
+
+        var result = validator.Validate(request);
+
+        Assert.False(result.IsValid);
+        Assert.Contains(result.Errors, error => error.PropertyName == nameof(CreateTransactionRequest.ExternalTransactionId));
     }
 }

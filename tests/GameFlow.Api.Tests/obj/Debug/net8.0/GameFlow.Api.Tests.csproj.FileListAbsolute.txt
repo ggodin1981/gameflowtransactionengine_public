@@ -10,3 +10,10 @@ F:\Repo\gameflowtransactionengine_public_repo\tests\GameFlow.Api.Tests\obj\Debug
 F:\Repo\gameflowtransactionengine_public_repo\tests\GameFlow.Api.Tests\obj\Debug\net8.0\GameFlow.Api.Tests.AssemblyInfoInputs.cache
 F:\Repo\gameflowtransactionengine_public_repo\tests\GameFlow.Api.Tests\obj\Debug\net8.0\GameFlow.Api.Tests.AssemblyInfo.cs
 F:\Repo\gameflowtransactionengine_public_repo\tests\GameFlow.Api.Tests\obj\Debug\net8.0\GameFlow.Api.Tests.csproj.CoreCompileInputs.cache
+F:\Repo\gameflowtransactionengine_public\tests\GameFlow.Api.Tests\bin\Debug\net8.0\.msCoverageSourceRootsMapping_GameFlow.Api.Tests
+F:\Repo\gameflowtransactionengine_public\tests\GameFlow.Api.Tests\obj\Debug\net8.0\GameFlow.Api.Tests.csproj.AssemblyReference.cache
+F:\Repo\gameflowtransactionengine_public\tests\GameFlow.Api.Tests\obj\Debug\net8.0\GameFlow.Api.Tests.GeneratedMSBuildEditorConfig.editorconfig
+F:\Repo\gameflowtransactionengine_public\tests\GameFlow.Api.Tests\obj\Debug\net8.0\GameFlow.Api.Tests.AssemblyInfoInputs.cache
+F:\Repo\gameflowtransactionengine_public\tests\GameFlow.Api.Tests\obj\Debug\net8.0\GameFlow.Api.Tests.AssemblyInfo.cs
+F:\Repo\gameflowtransactionengine_public\tests\GameFlow.Api.Tests\obj\Debug\net8.0\GameFlow.Api.Tests.csproj.CoreCompileInputs.cache
+F:\Repo\gameflowtransactionengine_public\tests\GameFlow.Api.Tests\obj\Debug\net8.0\GameFlow.Api.Tests.sourcelink.json

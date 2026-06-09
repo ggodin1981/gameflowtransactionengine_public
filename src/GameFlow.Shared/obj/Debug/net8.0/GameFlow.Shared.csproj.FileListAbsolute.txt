@@ -22,3 +22,16 @@ F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\obj\Debug\net8
 F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\obj\Debug\net8.0\refint\GameFlow.Shared.dll
 F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\obj\Debug\net8.0\GameFlow.Shared.pdb
 F:\Repo\gameflowtransactionengine_public_repo\src\GameFlow.Shared\obj\Debug\net8.0\ref\GameFlow.Shared.dll
+F:\Repo\gameflowtransactionengine_public\src\GameFlow.Shared\bin\Debug\net8.0\GameFlow.Shared.deps.json
+F:\Repo\gameflowtransactionengine_public\src\GameFlow.Shared\bin\Debug\net8.0\GameFlow.Shared.dll
+F:\Repo\gameflowtransactionengine_public\src\GameFlow.Shared\bin\Debug\net8.0\GameFlow.Shared.pdb
+F:\Repo\gameflowtransactionengine_public\src\GameFlow.Shared\obj\Debug\net8.0\GameFlow.Shared.csproj.AssemblyReference.cache
+F:\Repo\gameflowtransactionengine_public\src\GameFlow.Shared\obj\Debug\net8.0\GameFlow.Shared.GeneratedMSBuildEditorConfig.editorconfig
+F:\Repo\gameflowtransactionengine_public\src\GameFlow.Shared\obj\Debug\net8.0\GameFlow.Shared.AssemblyInfoInputs.cache
+F:\Repo\gameflowtransactionengine_public\src\GameFlow.Shared\obj\Debug\net8.0\GameFlow.Shared.AssemblyInfo.cs
+F:\Repo\gameflowtransactionengine_public\src\GameFlow.Shared\obj\Debug\net8.0\GameFlow.Shared.csproj.CoreCompileInputs.cache
+F:\Repo\gameflowtransactionengine_public\src\GameFlow.Shared\obj\Debug\net8.0\GameFlow.Shared.sourcelink.json
+F:\Repo\gameflowtransactionengine_public\src\GameFlow.Shared\obj\Debug\net8.0\GameFlow.Shared.dll
+F:\Repo\gameflowtransactionengine_public\src\GameFlow.Shared\obj\Debug\net8.0\refint\GameFlow.Shared.dll
+F:\Repo\gameflowtransactionengine_public\src\GameFlow.Shared\obj\Debug\net8.0\GameFlow.Shared.pdb
+F:\Repo\gameflowtransactionengine_public\src\GameFlow.Shared\obj\Debug\net8.0\ref\GameFlow.Shared.dll

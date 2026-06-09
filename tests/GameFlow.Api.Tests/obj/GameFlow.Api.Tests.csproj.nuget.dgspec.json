@@ -114,6 +114,7 @@
             "Microsoft.AspNetCore.OpenApi": "8.0.6",
             "Microsoft.EntityFrameworkCore": "8.0.6",
             "Microsoft.EntityFrameworkCore.Design": "8.0.6",
+            "Microsoft.EntityFrameworkCore.InMemory": "8.0.6",
             "Microsoft.Extensions.Caching.StackExchangeRedis": "8.0.6",
             "Microsoft.NET.Test.Sdk": "17.10.0",
             "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4",
@@ -207,6 +208,7 @@
             "Microsoft.AspNetCore.OpenApi": "8.0.6",
             "Microsoft.EntityFrameworkCore": "8.0.6",
             "Microsoft.EntityFrameworkCore.Design": "8.0.6",
+            "Microsoft.EntityFrameworkCore.InMemory": "8.0.6",
             "Microsoft.Extensions.Caching.StackExchangeRedis": "8.0.6",
             "Microsoft.NET.Test.Sdk": "17.10.0",
             "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4",
@@ -293,6 +295,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.6, )",
+              "versionCentrallyManaged": true
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.10.0, )",
@@ -316,6 +323,7 @@
             "Microsoft.AspNetCore.OpenApi": "8.0.6",
             "Microsoft.EntityFrameworkCore": "8.0.6",
             "Microsoft.EntityFrameworkCore.Design": "8.0.6",
+            "Microsoft.EntityFrameworkCore.InMemory": "8.0.6",
             "Microsoft.Extensions.Caching.StackExchangeRedis": "8.0.6",
             "Microsoft.NET.Test.Sdk": "17.10.0",
             "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4",

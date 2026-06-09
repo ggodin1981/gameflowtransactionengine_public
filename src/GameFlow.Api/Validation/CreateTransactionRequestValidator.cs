@@ -7,6 +7,7 @@ public sealed class CreateTransactionRequestValidator : AbstractValidator<Create
 {
     public CreateTransactionRequestValidator()
     {
+        RuleFor(x => x.ExternalTransactionId).NotEmpty().MaximumLength(64);
         RuleFor(x => x.PlayerExternalId).NotEmpty().MaximumLength(64);
         RuleFor(x => x.PlayerUsername).NotEmpty().MaximumLength(120);
         RuleFor(x => x.Currency).NotEmpty().Length(3);

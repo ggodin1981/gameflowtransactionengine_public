@@ -15,12 +15,25 @@ public sealed class TransactionsController(
     [HttpPost]
     [EnableRateLimiting("transaction-write")]
     [ProducesResponseType(typeof(TransactionAcceptedResponse), StatusCodes.Status202Accepted)]
+    [ProducesResponseType(StatusCodes.Status409Conflict)]
     public async Task<ActionResult<TransactionAcceptedResponse>> CreateAsync(
         [FromBody] CreateTransactionRequest request,
         CancellationToken cancellationToken)
     {
-        var response = await transactionCommandService.CreateAsync(request, cancellationToken);
-        return Accepted($"/api/transactions/{response.ExternalTransactionId}", response);
+        try
+        {
+            var response = await transactionCommandService.CreateAsync(request, cancellationToken);
+            return Accepted($"/api/transactions/{response.ExternalTransactionId}", response);
+        }
+        catch (DuplicateTransactionConflictException exception)
+        {
+            return Conflict(new ProblemDetails
+            {
+                Title = "Duplicate transaction payload conflict.",
+                Detail = exception.Message,
+                Status = StatusCodes.Status409Conflict
+            });
+        }
     }
 
     [HttpGet("{externalTransactionId}")]

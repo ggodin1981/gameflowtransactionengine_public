@@ -4,6 +4,7 @@ namespace GameFlow.Shared.Contracts.Transactions;
 
 public sealed class CreateTransactionRequest
 {
+    public string ExternalTransactionId { get; set; } = string.Empty;
     public string PlayerExternalId { get; set; } = string.Empty;
     public string PlayerUsername { get; set; } = string.Empty;
     public string Country { get; set; } = "PH";

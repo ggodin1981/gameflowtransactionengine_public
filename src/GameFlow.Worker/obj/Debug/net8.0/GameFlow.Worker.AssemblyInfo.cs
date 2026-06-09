@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GameFlow.Worker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b09a9f60a64fe0b58954c14a01db5598fdecdf8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5eef8efb5417997a8e5dbccafec65041d15b6d1c")]
 [assembly: System.Reflection.AssemblyProductAttribute("GameFlow.Worker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GameFlow.Worker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
