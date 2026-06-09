@@ -17,7 +17,7 @@ GameFlow Transaction Engine is a distributed transaction-processing portfolio pr
   https://gameflowtransactionengine.netlify.app
   ## API Test
   Local: `postman_collection-local-api.json`
-  Live: `[postman_collection-live-api.json](https://github.com/ggodin1981/gameflowtransactionengine_public/blob/main/postman_collection-live-api.json)`
+  Live: `https://github.com/ggodin1981/gameflowtransactionengine_public/blob/main/postman_collection-live-api.json`
 
 ## Architecture
 
