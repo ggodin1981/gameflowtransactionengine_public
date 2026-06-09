@@ -13,6 +13,7 @@ GameFlow Transaction Engine is a distributed transaction-processing portfolio pr
 - xUnit validation coverage as the starting point for deeper service-level tests
 - Docker, Kubernetes manifests, and GitHub Actions to tell a complete platform story
 
+
 ## Tech stack
 
 | Layer | Technology | How it is used in this project |
@@ -47,8 +48,15 @@ https://gameflowtransactionengine.netlify.app
 
 Local: `postman_collection-local-api.json`  
 Live: `postman_collection-live-api.json`
+=======
+  ## Demo Live
+  https://gameflowtransactionengine.netlify.app
+  ## API Test
+  - **Local API Collection:** [View Postman Collection](https://github.com/ggodin1981/gameflowtransactionengine_public/blob/main/postman_collection-local-api.json)
+  - **Live API Collection:** [View Postman Collection](https://github.com/ggodin1981/gameflowtransactionengine_public/blob/main/postman_collection-live-api.json)
 
-## Architecture
+
+## Architecture Design
 
 ```mermaid
 flowchart TD
