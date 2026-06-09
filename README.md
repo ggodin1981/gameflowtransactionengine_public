@@ -40,15 +40,7 @@ GameFlow Transaction Engine is a distributed transaction-processing portfolio pr
 | Deployment / orchestration | Kubernetes, Render, Netlify | Supports container orchestration plus separate frontend/backend hosting targets |
 | Observability | Prometheus, Grafana, Kibana | Provides metrics, dashboards, and log/search visibility around transaction processing |
 
-## Demo Live
 
-https://gameflowtransactionengine.netlify.app
-
-## API Test
-
-Local: `postman_collection-local-api.json`  
-Live: `postman_collection-live-api.json`
-=======
   ## Demo Live
   https://gameflowtransactionengine.netlify.app
   ## API Test
